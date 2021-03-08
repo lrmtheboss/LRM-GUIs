@@ -281,3 +281,6 @@ functions:
         fail-on: 'nopermission'
         functions:
         - 'pmsg: &cYou don''t have access to night vision'
+#
+#
+#
