@@ -20,8 +20,7 @@ functions:
   functions:
     click:
       type:
-      - 'left'
-      - 'right'
+      - 'click'
       functions:
       - 'nopermission: lrm.gui.effects.invis'
       - 'moneybalance: 1000000'
@@ -46,8 +45,7 @@ functions:
   functions:
     click:
       type:
-      - 'left'
-      - 'right'
+      - 'click'
       functions:
       - 'permission: lrm.gui.effects.invis'
       - 'executec: effect give %player% minecraft:invisibility 900000 1'
@@ -64,8 +62,7 @@ functions:
   functions:
     click:
       type:
-      - 'left'
-      - 'right'
+      - 'click'
       functions:
       - 'permission: lrm.gui.effects.invis'
       - 'executec: effect give %player% minecraft:invisibility 1 2'
