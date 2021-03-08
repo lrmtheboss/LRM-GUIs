@@ -5,13 +5,17 @@ alias:
 - effects
 - eff
 close: false
-
+#
+#
+#
 functions:
   load-permission: 
     type: "load"
     functions:
     - 'permission: lrm.gui.effects'
-
+#
+#
+#
 '10':
   icon: WHITE_STAINED_GLASS
   name: '&6Invis Access'
@@ -71,9 +75,9 @@ functions:
         fail-on: 'nopermission'
         functions:
         - 'pmsg: &cYou don't have access to invis'
-
-
-
+#
+#
+#
 '11':
   icon: YELLOW_STAINED_GLASS
   name: '&6Haste Access'
