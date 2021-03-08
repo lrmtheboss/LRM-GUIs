@@ -137,3 +137,65 @@ functions:
         fail-on: 'nopermission'
         functions:
         - 'pmsg: &cYou don't have access to haste'
+#
+#
+#
+'12':
+  icon: ORANGE_STAINED_GLASS
+  name: '&6Haste Access'
+  lore:
+  - '&c Click here to buy perm access to fire res for 1Mil'
+  functions:
+    click:
+      type:
+      - 'click'
+      functions:
+      - 'nopermission: lrm.gui.effects.fire_resistance'
+      - 'moneybalance: 1000000'
+      - 'moneywithdraw: 1000000'
+      - 'addpermission: lrm.gui.effects.fire_resistance'
+      - 'pmsg: &aYou have bought perm access to fire res'
+      nopermission-fail:
+        type: 'fail'
+        fail-on: 'nopermission'
+        functions:
+        - 'pmsg: &cYou already have access to fire res'
+      moneybalance-fail:
+        type: 'fail'
+        fail-on: 'moneybalance'
+        functions:
+        - 'pmsg: &cYou don't have enough money'
+'21':
+  icon: ORANGE_WOOL
+  name: '&6Haste Activation'
+  lore:
+  - '&c Click here to activate your fire res'
+  functions:
+    click:
+      type:
+      - 'click'
+      functions:
+      - 'permission: lrm.gui.effects.fire_resistance'
+      - 'executec: effect give %player% minecraft:fire_resistance 900000 1'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'nopermission'
+        functions:
+        - 'pmsg: &cYou don't have access to fire res'
+'30':
+  icon: BLACK_WOOL
+  name: '&6Haste Deactivation'
+  lore:
+  - '&c Click here to deactivate your fire res'
+  functions:
+    click:
+      type:
+      - 'click'
+      functions:
+      - 'permission: lrm.gui.effects.fire_resistance'
+      - 'executec: effect give %player% minecraft:fire_resistance 1 2'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'nopermission'
+        functions:
+        - 'pmsg: &cYou don't have access to fire res'
