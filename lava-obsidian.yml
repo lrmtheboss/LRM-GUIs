@@ -1,0 +1,112 @@
+title: '&cObsidian/Lava'
+rows: 6
+mode: set
+alias:
+- testing
+close: false
+
+functions:
+  load-permission: 
+    type: "load"
+    functions:
+    - 'permission: lrm.gui.lava-obsidian'
+
+'10':
+  icon: OBSIDIAN
+  name: '&61'
+  lore:
+  - '&c Click to turn one lava bucket to an obsidian block'
+  functions:
+    click:
+      type:
+      - 'left'
+      - 'right'
+      functions:
+      - 'condition: %checkitem_amount_mat:lava_bucket% >= 1'
+      - 'takeitems: LAVA_BUCKET,1'
+      - 'executec: give %player% OBSIDIAN 1'
+      - 'executec: give %player% bucket 1'
+      condition-fail:
+        type: 'fail'
+        fail-on: 'condition'
+        functions:
+        - 'pmsg: &cYou need a lava bucket to do this'
+'12':
+  icon: OBSIDIAN
+  name: '&65 at once'
+  amount: 5
+  lore:
+  - '&c Click to turn 5 lava buckets to obsidian blocks'
+  functions:
+    click:
+      type:
+      - 'left'
+      - 'right'
+      functions:
+      - 'condition: %checkitem_amount_mat:lava_bucket% == 5'
+      - 'setmetadata: gui,temp,%checkitem_amount_mat:lava_bucket%'
+      - 'setmetadata: gui,temphalf,%math_0:down_%metadata_temp%/2%'
+      - 'takeitems: LAVA_BUCKET,%metadata_temp%'
+      - 'executec: give %player% OBSIDIAN %metadata_temp%'
+      - 'executec: give %player% bucket %metadata_temp%'
+      condition-fail:
+        type: 'fail'
+        fail-on: 'condition'
+        functions:
+        - 'pmsg: &cYou need 5 lava buckets to do this'
+'14':
+  icon: OBSIDIAN
+  name: '&610 at once'
+  amount: 10
+  lore:
+  - '&c Click to turn 10 lava buckets to obsidian blocks'
+  functions:
+    click:
+      type:
+      - 'left'
+      - 'right'
+      functions:
+      - 'condition: %checkitem_amount_mat:lava_bucket% == 10'
+      - 'setmetadata: gui,temp,%checkitem_amount_mat:lava_bucket%'
+      - 'setmetadata: gui,temphalf,%math_0:down_%metadata_temp%/2%'
+      - 'takeitems: LAVA_BUCKET,%metadata_temp%'
+      - 'executec: give %player% OBSIDIAN %metadata_temp%'
+      - 'executec: give %player% bucket %metadata_temp%'
+      condition-fail:
+        type: 'fail'
+        fail-on: 'condition'
+        functions:
+        - 'pmsg: &cYou need 10 lava buckets to do this'
+'16':
+  icon: OBSIDIAN
+  name: '&6Up to 20 at once'
+  amount: 20
+  lore:
+  - '&c Click to turn up to 20 lava buckets to obsidian blocks'
+  functions:
+    click:
+      type:
+      - 'left'
+      - 'right'
+      functions:
+      - 'condition: %checkitem_amount_mat:lava_bucket% == 0'
+      - 'pmsg: &cYou need a lava bucket to do this'
+      condition-fail:
+        type: 'fail'
+        fail-on: 'condition'
+        functions:
+        - 'condition: %checkitem_amount_mat:lava_bucket% <=20'
+        - 'setmetadata: gui,temp,%checkitem_amount_mat:lava_bucket%'
+        - 'setmetadata: gui,temphalf,%math_0:down_%metadata_temp%/2%'
+        - 'takeitems: LAVA_BUCKET,%metadata_temp%'
+        - 'executec: give %player% OBSIDIAN %metadata_temp%'
+        - 'executec: give %player% bucket %metadata_temp%'
+        condition-fail:
+         type: 'fail'
+         fail-on: 'condition'
+         functions:
+         - 'setmetadata: gui,temp2,20'
+         - 'setmetadata: gui,temphalf2,10'
+         - 'takeitems: LAVA_BUCKET,%metadata_temp2%'
+         - 'executec: give %player% OBSIDIAN %metadata_temp2%'
+         - 'executec: give %player% bucket %metadata_temp2%'
