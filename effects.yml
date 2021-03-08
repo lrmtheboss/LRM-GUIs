@@ -1,0 +1,76 @@
+title: '&cEffects'
+rows: 6
+mode: set
+alias:
+- effects
+- eff
+close: false
+
+functions:
+  load-permission: 
+    type: "load"
+    functions:
+    - 'permission: lrm.gui.effects'
+
+'10':
+  icon: WHITE_STAINED_GLASS
+  name: '&6Invis Access'
+  lore:
+  - '&c Click here to buy perm access to invis for 1Mil'
+  functions:
+    click:
+      type:
+      - 'left'
+      - 'right'
+      functions:
+      - 'nopermission: lrm.gui.effects.invis'
+      - 'moneybalance: 1000000'
+      - 'moneywithdraw: 1000000'
+      - 'addpermission: lrm.gui.effects.invis'
+      - 'pmsg: &aYou have bought perm access to invis'
+      nopermission-fail:
+        type: 'fail'
+        fail-on: 'nopermission'
+        functions:
+        - 'pmsg: &cYou already have access to invis'
+      moneybalance-fail:
+        type: 'fail'
+        fail-on: 'moneybalance'
+        functions:
+        - 'pmsg: &cYou don't have enough money'
+'19':
+  icon: GLASS
+  name: '&6Invis Activation'
+  lore:
+  - '&c Click here to activate your invis'
+  functions:
+    click:
+      type:
+      - 'left'
+      - 'right'
+      functions:
+      - 'permission: lrm.gui.effects.invis'
+      - 'executec: effect give %player% minecraft:invisibility 900000 1'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'nopermission'
+        functions:
+        - 'pmsg: &cYou don't have access to invis'
+'28':
+  icon: BLACK_STAINED_GLASS
+  name: '&6Invis Deactivation'
+  lore:
+  - '&c Click here to deactivate your invis'
+  functions:
+    click:
+      type:
+      - 'left'
+      - 'right'
+      functions:
+      - 'permission: lrm.gui.effects.invis'
+      - 'executec: effect give %player% minecraft:invisibility 1 2'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'nopermission'
+        functions:
+        - 'pmsg: &cYou don't have access to invis'
