@@ -16,6 +16,26 @@ functions:
 #
 #
 #
+'0':
+  icon: DARK_OAK_DOOR
+  name: '&b&lExit'
+  lore:
+  - '&8&m------&3&m---------&8&m------'
+  - '&8'
+  - '&aClick to exit the shop.'
+  - '&8'
+  - '&8&m------&3&m---------&8&m------'
+  close: true
+  functions:  
+    click:  
+      type:
+      - click
+      functions:
+      - 'gui: close'
+      - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
+#
+#
+#
 '10':
   icon: WHITE_STAINED_GLASS
   name: '&6Invis Access'
@@ -40,7 +60,7 @@ functions:
         type: 'fail'
         fail-on: 'moneybalance'
         functions:
-        - 'pmsg: &cYou don't have enough money'
+        - 'pmsg: &cYou don''t have enough money'
 '19':
   icon: GLASS
   name: '&6Invis Activation'
@@ -57,7 +77,7 @@ functions:
         type: 'fail'
         fail-on: 'nopermission'
         functions:
-        - 'pmsg: &cYou don't have access to invis'
+        - 'pmsg: &cYou don''t have access to invis'
 '28':
   icon: BLACK_STAINED_GLASS
   name: '&6Invis Deactivation'
@@ -74,7 +94,7 @@ functions:
         type: 'fail'
         fail-on: 'nopermission'
         functions:
-        - 'pmsg: &cYou don't have access to invis'
+        - 'pmsg: &cYou don''t have access to invis'
 #
 #
 #
@@ -102,7 +122,7 @@ functions:
         type: 'fail'
         fail-on: 'moneybalance'
         functions:
-        - 'pmsg: &cYou don't have enough money'
+        - 'pmsg: &cYou don''t have enough money'
 '20':
   icon: YELLOW_WOOL
   name: '&6Haste Activation'
@@ -119,7 +139,7 @@ functions:
         type: 'fail'
         fail-on: 'nopermission'
         functions:
-        - 'pmsg: &cYou don't have access to haste'
+        - 'pmsg: &cYou don''t have access to haste'
 '29':
   icon: BLACK_WOOL
   name: '&6Haste Deactivation'
@@ -136,7 +156,7 @@ functions:
         type: 'fail'
         fail-on: 'nopermission'
         functions:
-        - 'pmsg: &cYou don't have access to haste'
+        - 'pmsg: &cYou don''t have access to haste'
 #
 #
 #
@@ -164,7 +184,7 @@ functions:
         type: 'fail'
         fail-on: 'moneybalance'
         functions:
-        - 'pmsg: &cYou don't have enough money'
+        - 'pmsg: &cYou don''t have enough money'
 '21':
   icon: ORANGE_WOOL
   name: '&6Haste Activation'
@@ -181,7 +201,7 @@ functions:
         type: 'fail'
         fail-on: 'nopermission'
         functions:
-        - 'pmsg: &cYou don't have access to fire res'
+        - 'pmsg: &cYou don''t have access to fire res'
 '30':
   icon: BLACK_WOOL
   name: '&6Haste Deactivation'
@@ -198,4 +218,4 @@ functions:
         type: 'fail'
         fail-on: 'nopermission'
         functions:
-        - 'pmsg: &cYou don't have access to fire res'
+        - 'pmsg: &cYou don''t have access to fire res'
