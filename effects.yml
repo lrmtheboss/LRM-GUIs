@@ -219,3 +219,65 @@ functions:
         fail-on: 'nopermission'
         functions:
         - 'pmsg: &cYou don''t have access to fire res'
+#
+#
+#
+'13':
+  icon: LIGHT_BLUE_STAINED_GLASS
+  name: '&6Night Vision Access'
+  lore:
+  - '&c Click here to buy perm access to night vision for 1Mil'
+  functions:
+    click:
+      type:
+      - 'click'
+      functions:
+      - 'nopermission: lrm.gui.effects.night_vision'
+      - 'moneybalance: 1000000'
+      - 'moneywithdraw: 1000000'
+      - 'addpermission: lrm.gui.effects.night_vision'
+      - 'pmsg: &aYou have bought perm access to night vision'
+      nopermission-fail:
+        type: 'fail'
+        fail-on: 'nopermission'
+        functions:
+        - 'pmsg: &cYou already have access to night vision'
+      moneybalance-fail:
+        type: 'fail'
+        fail-on: 'moneybalance'
+        functions:
+        - 'pmsg: &cYou don''t have enough money'
+'22':
+  icon: LIME_WOOL
+  name: '&6Night Vision Activation'
+  lore:
+  - '&c Click here to activate your night vision'
+  functions:
+    click:
+      type:
+      - 'click'
+      functions:
+      - 'permission: lrm.gui.effects.night_vision'
+      - 'executec: effect give %player% minecraft:night_vision 900000 1'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'nopermission'
+        functions:
+        - 'pmsg: &cYou don''t have access to night vision'
+'31':
+  icon: BLUE_WOOL
+  name: '&6Night Vision Deactivation'
+  lore:
+  - '&c Click here to deactivate your night vision'
+  functions:
+    click:
+      type:
+      - 'click'
+      functions:
+      - 'permission: lrm.gui.effects.night_vision'
+      - 'executec: effect give %player% minecraft:night_vision 1 2'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'nopermission'
+        functions:
+        - 'pmsg: &cYou don''t have access to night vision'
