@@ -37,7 +37,18 @@ functions:
 #
 #
 '10':
-  icon: WHITE_STAINED_GLASS
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: lrm.gui.effects.invis'
+      - 'seticon: GREEN_WOOL'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'seticon: WHITE_STAINED_GLASS'
+#  icon: WHITE_STAINED_GLASS
   name: '&6Invis Access'
   lore:
   - '&c Click here to buy perm access to invis for 1Mil'
@@ -99,7 +110,18 @@ functions:
 #
 #
 '11':
-  icon: YELLOW_STAINED_GLASS
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: lrm.gui.effects.haste'
+      - 'seticon: YELLOW_WOOL'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'seticon: YELLOW_STAINED_GLASS'
+#  icon: YELLOW_STAINED_GLASS
   name: '&6Haste Access'
   lore:
   - '&c Click here to buy perm access to haste for 1Mil'
@@ -161,7 +183,18 @@ functions:
 #
 #
 '12':
-  icon: ORANGE_STAINED_GLASS
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: lrm.gui.effects.fire_resistance'
+      - 'seticon: ORANGE_WOOL'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'seticon: ORANGE_STAINED_GLASS'
+#  icon: ORANGE_STAINED_GLASS
   name: '&6Haste Access'
   lore:
   - '&c Click here to buy perm access to fire res for 1Mil'
@@ -223,7 +256,18 @@ functions:
 #
 #
 '13':
-  icon: LIGHT_BLUE_STAINED_GLASS
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: lrm.gui.effects.night_vision'
+      - 'seticon: LIGHT_BLUE_WOOL'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'seticon: LIGHT_BLUE_STAINED_GLASS'
+#  icon: LIGHT_BLUE_STAINED_GLASS
   name: '&6Night Vision Access'
   lore:
   - '&c Click here to buy perm access to night vision for 1Mil'
