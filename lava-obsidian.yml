@@ -23,6 +23,26 @@ functions:
 #
 #
 #
+'0':
+  icon: DARK_OAK_DOOR
+  name: '&b&lExit'
+  lore:
+  - '&8&m------&3&m---------&8&m------'
+  - '&8'
+  - '&aClick to exit the shop.'
+  - '&8'
+  - '&8&m------&3&m---------&8&m------'
+  close: true
+  functions:  
+    click:  
+      type:
+      - click
+      functions:
+      - 'gui: close'
+      - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
+#
+#
+#
 '10':
   icon: OBSIDIAN
   name: '&61'
