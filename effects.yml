@@ -76,12 +76,12 @@ functions:
       type: 'load'
       functions:
       - 'permission: lrm.gui.effects.invis'
-      - 'seticon: GREEN_WOOL'
+      - 'settype: GREEN_WOOL'
       permission-fail:
         type: 'fail'
         fail-on: 'permission'
         functions:
-        - 'seticon: WHITE_STAINED_GLASS'
+        - 'settype: WHITE_STAINED_GLASS'
     click:
       type:
       - 'click'
@@ -140,22 +140,20 @@ functions:
 #
 '11':
   name: '&6Haste Access'
+  icon: YELLOW_STAINED_GLASS
+  lore:
+  - '&c Click here to buy perm access to haste for 1Mil'
   functions:
     load:
       type: 'load'
       functions:
       - 'permission: lrm.gui.effects.haste'
-      - 'seticon: YELLOW_WOOL'
+      - 'settype: YELLOW_WOOL'
       permission-fail:
         type: 'fail'
         fail-on: 'permission'
         functions:
-        - 'seticon: YELLOW_STAINED_GLASS'
-  icon: YELLOW_STAINED_GLASS
-#  name: '&6Haste Access'
-  lore:
-  - '&c Click here to buy perm access to haste for 1Mil'
-  functions:
+        - 'settype: YELLOW_STAINED_GLASS'
     click:
       type:
       - 'click'
@@ -214,22 +212,20 @@ functions:
 #
 '12':
   name: '&6Haste Access'
+  icon: ORANGE_STAINED_GLASS
+  lore:
+  - '&c Click here to buy perm access to fire res for 1Mil'
   functions:
     load:
       type: 'load'
       functions:
       - 'permission: lrm.gui.effects.fire_resistance'
-      - 'seticon: ORANGE_WOOL'
+      - 'settype: ORANGE_WOOL'
       permission-fail:
         type: 'fail'
         fail-on: 'permission'
         functions:
-        - 'seticon: ORANGE_STAINED_GLASS'
-  icon: ORANGE_STAINED_GLASS
-#  name: '&6Haste Access'
-  lore:
-  - '&c Click here to buy perm access to fire res for 1Mil'
-  functions:
+        - 'settype: ORANGE_STAINED_GLASS'
     click:
       type:
       - 'click'
@@ -288,22 +284,20 @@ functions:
 #
 '13':
   name: '&6Night Vision Access'
+  icon: LIGHT_BLUE_STAINED_GLASS
+  lore:
+  - '&c Click here to buy perm access to night vision for 1Mil'
   functions:
     load:
       type: 'load'
       functions:
       - 'permission: lrm.gui.effects.night_vision'
-      - 'seticon: LIGHT_BLUE_WOOL'
+      - 'settype: LIGHT_BLUE_WOOL'
       permission-fail:
         type: 'fail'
         fail-on: 'permission'
         functions:
-        - 'seticon: LIGHT_BLUE_STAINED_GLASS'
-  icon: LIGHT_BLUE_STAINED_GLASS
-#  name: '&6Night Vision Access'
-  lore:
-  - '&c Click here to buy perm access to night vision for 1Mil'
-  functions:
+        - 'settype: LIGHT_BLUE_STAINED_GLASS'
     click:
       type:
       - 'click'
