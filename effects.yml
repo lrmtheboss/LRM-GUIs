@@ -55,9 +55,7 @@ functions:
       type: "load"
       functions: 
       - "permission: lrm.gui.effects.invis"
-      - "broadcast: fuck"
       - "settype: cobblestone"
-      - "broadcast: shit"
     click:  
       type:
       - click
