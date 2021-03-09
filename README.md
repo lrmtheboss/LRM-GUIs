@@ -1,6 +1,6 @@
 # LRM-GUIs
 
-LRM's GUIs for dynamicgui
+LRM's GUIs for DynamicGUI
 
 ## No addons required
 
