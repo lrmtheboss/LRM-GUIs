@@ -41,7 +41,35 @@ functions:
 #
 #
 #
+'5': 
+  name: "Some name"
+  icon: 'stone'
+  functions: 
+    load:
+      type: "load"
+      functions: 
+      - "permission: lrm.gui.effects.invis"
+      - "broadcast: fuck"
+      - "seticon: cobblestone"
+      - "broadcast: shit"
+  lore:
+  - '&8&m------&3&m---------&8&m------'
+  - '&8'
+  - '&aClick for sound.'
+  - '&8'
+  - '&8&m------&3&m---------&8&m------'
+  functions:  
+    click:  
+      type:
+      - click
+      functions:
+      - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
+#
+#
+#
 '10':
+  name: '&6Invis Access'
+  icon: WHITE_STAINED_GLASS
   functions:
     load:
       type: 'load'
@@ -54,7 +82,7 @@ functions:
         functions:
         - 'seticon: WHITE_STAINED_GLASS'
 #  icon: WHITE_STAINED_GLASS
-  name: '&6Invis Access'
+#  name: '&6Invis Access'
   lore:
   - '&c Click here to buy perm access to invis for 1Mil'
   functions:
@@ -91,7 +119,7 @@ functions:
       - 'executec: effect give %player% minecraft:invisibility 900000 1'
       permission-fail:
         type: 'fail'
-        fail-on: 'nopermission'
+        fail-on: 'permission'
         functions:
         - 'pmsg: &cYou don''t have access to invis'
 '28':
@@ -108,13 +136,14 @@ functions:
       - 'executec: effect give %player% minecraft:invisibility 1 2'
       permission-fail:
         type: 'fail'
-        fail-on: 'nopermission'
+        fail-on: 'permission'
         functions:
         - 'pmsg: &cYou don''t have access to invis'
 #
 #
 #
 '11':
+  name: '&6Haste Access'
   functions:
     load:
       type: 'load'
@@ -126,8 +155,8 @@ functions:
         fail-on: 'permission'
         functions:
         - 'seticon: YELLOW_STAINED_GLASS'
-#  icon: YELLOW_STAINED_GLASS
-  name: '&6Haste Access'
+  icon: YELLOW_STAINED_GLASS
+#  name: '&6Haste Access'
   lore:
   - '&c Click here to buy perm access to haste for 1Mil'
   functions:
@@ -164,7 +193,7 @@ functions:
       - 'executec: effect give %player% minecraft:haste 900000 1'
       permission-fail:
         type: 'fail'
-        fail-on: 'nopermission'
+        fail-on: 'permission'
         functions:
         - 'pmsg: &cYou don''t have access to haste'
 '29':
@@ -181,13 +210,14 @@ functions:
       - 'executec: effect give %player% minecraft:haste 1 2'
       permission-fail:
         type: 'fail'
-        fail-on: 'nopermission'
+        fail-on: 'permission'
         functions:
         - 'pmsg: &cYou don''t have access to haste'
 #
 #
 #
 '12':
+  name: '&6Haste Access'
   functions:
     load:
       type: 'load'
@@ -199,8 +229,8 @@ functions:
         fail-on: 'permission'
         functions:
         - 'seticon: ORANGE_STAINED_GLASS'
-#  icon: ORANGE_STAINED_GLASS
-  name: '&6Haste Access'
+  icon: ORANGE_STAINED_GLASS
+#  name: '&6Haste Access'
   lore:
   - '&c Click here to buy perm access to fire res for 1Mil'
   functions:
@@ -237,7 +267,7 @@ functions:
       - 'executec: effect give %player% minecraft:fire_resistance 900000 1'
       permission-fail:
         type: 'fail'
-        fail-on: 'nopermission'
+        fail-on: 'permission'
         functions:
         - 'pmsg: &cYou don''t have access to fire res'
 '30':
@@ -254,13 +284,14 @@ functions:
       - 'executec: effect give %player% minecraft:fire_resistance 1 2'
       permission-fail:
         type: 'fail'
-        fail-on: 'nopermission'
+        fail-on: 'permission'
         functions:
         - 'pmsg: &cYou don''t have access to fire res'
 #
 #
 #
 '13':
+  name: '&6Night Vision Access'
   functions:
     load:
       type: 'load'
@@ -272,8 +303,8 @@ functions:
         fail-on: 'permission'
         functions:
         - 'seticon: LIGHT_BLUE_STAINED_GLASS'
-#  icon: LIGHT_BLUE_STAINED_GLASS
-  name: '&6Night Vision Access'
+  icon: LIGHT_BLUE_STAINED_GLASS
+#  name: '&6Night Vision Access'
   lore:
   - '&c Click here to buy perm access to night vision for 1Mil'
   functions:
@@ -310,7 +341,7 @@ functions:
       - 'executec: effect give %player% minecraft:night_vision 900000 1'
       permission-fail:
         type: 'fail'
-        fail-on: 'nopermission'
+        fail-on: 'permission'
         functions:
         - 'pmsg: &cYou don''t have access to night vision'
 '31':
@@ -327,7 +358,7 @@ functions:
       - 'executec: effect give %player% minecraft:night_vision 1 2'
       permission-fail:
         type: 'fail'
-        fail-on: 'nopermission'
+        fail-on: 'permission'
         functions:
         - 'pmsg: &cYou don''t have access to night vision'
 #
