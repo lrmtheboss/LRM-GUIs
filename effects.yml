@@ -13,6 +13,11 @@ functions:
     type: "load"
     functions:
     - 'permission: lrm.gui.effects'
+    permission-fail:
+      type: 'fail'
+      fail-on: 'permission'
+      functions: 
+      - 'pmsg: You don''t have permission to do that'
 #
 #
 #
