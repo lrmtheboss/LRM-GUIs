@@ -4,7 +4,9 @@ mode: set
 alias:
 - testing
 close: false
-
+#
+#
+#
 functions:
   load-permission: 
     type: "load"
@@ -15,7 +17,9 @@ functions:
       fail-on: 'permission'
       functions:
       - 'pmsg: You don''t have permission to do that'
-
+#
+#
+#
 '10':
   icon: OBSIDIAN
   name: '&61'
@@ -115,3 +119,6 @@ functions:
          - 'takeitems: LAVA_BUCKET,%metadata_temp2%'
          - 'executec: give %player% OBSIDIAN %metadata_temp2%'
          - 'executec: give %player% bucket %metadata_temp2%'
+#
+#
+#
