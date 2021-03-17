@@ -1,0 +1,869 @@
+title: '&8&lWarps'
+rows: 6
+close: false
+alias:
+- warps
+
+'0':
+  icon: WOOD_DOOR
+  name: '&c&lExit'
+  lore:
+  - '&8&m--------------'
+  - '&8'
+  - '&aClick to exit.'
+  - '&8'
+  - '&8&m--------------'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'close: true'
+'8':
+  icon: WOOD_DOOR
+  name: '&c&lExit'
+  lore:
+  - '&8&m--------------'
+  - '&8'
+  - '&aClick to exit.'
+  - '&8'
+  - '&8&m--------------'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'close: true'
+'3':
+  icon: CHEST
+  name: '&b&lCreats'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Creats.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp creats'
+'5':
+  icon: GRASS
+  name: '&b&lPlots'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Plots.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp plots'
+'10': 
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine A'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine A.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.a'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp a'
+'11': 
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine B'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine B.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.b'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp b'
+'12':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine C'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine C.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.c'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp c'
+'13':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine D'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine D.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.d'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp d'
+'14':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine E'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine E.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.e'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp e'
+'15':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine F'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine F.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.f'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp f'
+'16':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine G'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine G.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.g'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp g'
+'19':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine H'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine H.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.h'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp h'
+'20':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine I'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine I.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.i'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp i'
+'21':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine J'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine J.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.J'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp J'
+'22':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine K'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine K.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.K'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp K'
+'23':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine L'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine L.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.l'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp l'
+'24':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine M'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine M.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.m'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp m'
+'25':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine N'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine N.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.n'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp n'
+'28':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine O'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine O.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.o'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp o'
+'29':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine P'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine P.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.p'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp p'
+'30':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine Q'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine Q.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.q'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp q'
+'31':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine R'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine R.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.r'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp r'
+'32':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine S'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine S.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.s'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp s'
+'33':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine T'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine T.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.t'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp t'
+'34':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine U'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine U.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.u'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp u'
+'37':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine V'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine V.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.v'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp v'
+'38':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine W'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine W.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.w'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp w'
+'39':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine X'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine X.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.x'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp x'
+'40':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine Y'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine Y.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.y'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp y'
+'41':
+  icon: REDSTONE_BLOCK
+  name: '&b&lMine Z'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Mine Z.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.z'
+      - 'settype: EMERALD_BLOCK'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: REDSTONE_BLOCK'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp z'
+#
+#
+#
+'46':
+  icon: BARRIER
+  name: '&b&lPleb Mine'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Pleb Mine.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.pleb'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp pleb'
+'47':
+  icon: BARRIER
+  name: '&b&lKnight Mine'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Knight Mine.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.knight'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp knight'
+'48':
+  icon: BARRIER
+  name: '&b&lLord Mine'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Lord Mine.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.lord'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp lord'
+'49':
+  icon: BARRIER
+  name: '&b&lEarl Mine'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Earl Mine.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.earl'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp earl'
+'50':
+  icon: BARRIER
+  name: '&b&lViscount Mine'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Viscount Mine.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.viscount'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp viscount'
+'51':
+  icon: BARRIER
+  name: '&b&lMonarch Mine'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to go to Monarch Mine.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.warp.monarch'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: warp monarch'
