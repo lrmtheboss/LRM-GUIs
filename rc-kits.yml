@@ -1,0 +1,220 @@
+title: '&8&lKits'
+rows: 6
+close: false
+alias:
+- Kits
+
+'0':
+  icon: WOOD_DOOR
+  name: '&c&lExit'
+  lore:
+  - '&8&m--------------'
+  - '&8'
+  - '&aClick to exit.'
+  - '&8'
+  - '&8&m--------------'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'close: true'
+'8':
+  icon: WOOD_DOOR
+  name: '&c&lExit'
+  lore:
+  - '&8&m--------------'
+  - '&8'
+  - '&aClick to exit.'
+  - '&8'
+  - '&8&m--------------'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'close: true'
+#
+#
+# starter kit
+'4':
+  icon: BARRIER
+  name: '&b&lStarter Kit'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to get a Starter kit.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.kits.starter'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: kit starter'
+#
+#
+# donor kits
+'10':
+  icon: BARRIER
+  name: '&b&lPleb Kit'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to get a Pleb kit.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.kits.pleb'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: kit pleb'
+'11':
+  icon: BARRIER
+  name: '&b&lKnight Kit'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to get a Knight kit.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.kits.knight'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: kit knight'
+'12':
+  icon: BARRIER
+  name: '&b&lLord Kit'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to get a Lord kit.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.kits.lord'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: kit Lord'
+'14':
+  icon: BARRIER
+  name: '&b&lEarl Kit'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to get a Earl kit.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.kits.earl'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: kit earl'
+'15':
+  icon: BARRIER
+  name: '&b&lViscount Kit'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to get a Viscount kit.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.kits.viscount'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: kit viscount'
+'16':
+  icon: BARRIER
+  name: '&b&lMonarch Kit'
+  lore:
+  - '&8&m-----------------------'
+  - '&8'
+  - '&aClick to get a Monarch kit.'
+  - '&8'
+  - '&8&m-----------------------'
+  functions:
+    load:
+      type: 'load'
+      functions:
+      - 'permission: essentials.kits.monarch'
+      - 'settype: BEACON'
+      permission-fail:
+        type: 'fail'
+        fail-on: 'permission'
+        functions:
+        - 'setype: BARRIER'
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: kit monarch'
+#
+#
+# Color Legend Specter Specterpickaxe Flux Matrix God Mythical Legendary
