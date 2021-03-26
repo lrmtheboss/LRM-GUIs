@@ -1,0 +1,240 @@
+title: '&cMine Maker'
+rows: 1
+mode: set
+alias:
+- lrmminemaker
+close: false
+#
+#
+#
+functions:
+  load-permission: 
+    type: "load"
+    functions:
+    - 'permission: lrm.gui.mine-maker'
+    permission-fail:
+      type: 'fail'
+      fail-on: 'permission'
+      functions: 
+      - 'pmsg: You don''t have permission to do that'
+#
+#
+#
+'0':
+  icon: DARK_OAK_DOOR
+  name: '&b&lExit'
+  lore:
+  - '&8&m------&3&m---------&8&m------'
+  - '&8'
+  - '&aClick to exit.'
+  - '&8'
+  - '&8&m------&3&m---------&8&m------'
+  close: true
+  functions:  
+    click:  
+      type:
+      - click
+      functions:
+      - 'gui: close'
+      - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
+#
+#
+#
+'10': 
+  name: "Set Base"
+  icon: 'stone'
+  lore:
+  - '&8&m------&3&m---------&8&m------'
+  - '&8'
+  - '&aClick to set base.'
+  - '&8'
+  - '&a goes on 100,100 and dose 6x6 of 75x75 by 50 deep mine base'
+  - '&8'
+  - '&8&m------&3&m---------&8&m------'
+  functions:
+    click:  
+      type:
+      - click
+      functions:
+      - 'executep: /pos1 100,50,100'
+      - 'executep: /pos2 1025,150,1025'
+      - 'executep: /set stone'
+      - 'executep: /confirm'
+      - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
+#
+'11': 
+  name: "Set Bottom Base"
+  icon: 'stone'
+  lore:
+  - '&8&m------&3&m---------&8&m------'
+  - '&8'
+  - '&aClick to set bottom base.'
+  - '&8'
+  - '&a goes on 100,100 and dose 6x6 of 75x75 by 50 deep mine bottom base'
+  - '&8'
+  - '&8&m------&3&m---------&8&m------'
+  functions:
+    click:  
+      type:
+      - click
+      functions:
+      - 'executep: /pos1 100,50,100'
+      - 'executep: /pos2 1025,54,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
+#
+'12': 
+  name: "Set Lines"
+  icon: 'stone'
+  lore:
+  - '&8&m------&3&m---------&8&m------'
+  - '&8'
+  - '&aClick to set lines.'
+  - '&8'
+  - '&a goes on 100,100 and dose 6x6 of 75x75 by 50 deep mine lines'
+  - '&8'
+  - '&8&m------&3&m---------&8&m------'
+  functions:
+    click:  
+      type:
+      - click
+      functions:
+      - 'executep: /pos1 100,50,100'
+      - 'executep: /pos2 1025,150,100'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,126'
+      - 'executep: /pos2 1025,150,126'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,277'
+      - 'executep: /pos2 1025,150,277'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,303'
+      - 'executep: /pos2 1025,150,303'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,454'
+      - 'executep: /pos2 1025,150,454'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,480'
+      - 'executep: /pos2 1025,150,480'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,631'
+      - 'executep: /pos2 1025,150,631'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,657'
+      - 'executep: /pos2 1025,150,657'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,808'
+      - 'executep: /pos2 1025,150,808'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,834'
+      - 'executep: /pos2 1025,150,834'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,981'
+      - 'executep: /pos2 1025,150,981'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,1007'
+      - 'executep: /pos2 1025,125,1007'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,1158'
+      - 'executep: /pos2 1025,125,1158'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 100,50,1184'
+      - 'executep: /pos2 1025,125,1184'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      #
+      - 'executep: /pos1 100,50,100'
+      - 'executep: /pos2 100,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 125,50,100'
+      - 'executep: /pos2 125,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 250,50,100'
+      - 'executep: /pos2 250,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 275,50,100'
+      - 'executep: /pos2 275,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 400,50,100'
+      - 'executep: /pos2 400,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 425,50,100'
+      - 'executep: /pos2 425,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 550,50,100'
+      - 'executep: /pos2 550,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 575,50,100'
+      - 'executep: /pos2 575,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 700,50,100'
+      - 'executep: /pos2 700,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 725,50,100'
+      - 'executep: /pos2 725,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 850,50,100'
+      - 'executep: /pos2 850,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 875,50,100'
+      - 'executep: /pos2 875,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 1000,50,100'
+      - 'executep: /pos2 1000,125,1025'
+      - 'executep: /set bedrock'
+      - 'executep: /confirm'
+      - 'executep: /pos1 1025,50,100'
+      - 'executep: /pos2 1025,125,1025'
+      - 'executep: /set bedrok'
+      - 'executep: /confirm'
+      #
+      - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
+#
+'13': 
+  name: "Set Mine Walls"
+  icon: 'stone'
+  lore:
+  - '&8&m------&3&m---------&8&m------'
+  - '&8'
+  - '&aClick to set mine walls.'
+  - '&8'
+  - '&a goes on 100,100 and dose 6x6 of 75x75 by 50 deep mine walls'
+  - '&8'
+  - '&8&m------&3&m---------&8&m------'
+  functions:
+    click:  
+      type:
+      - click
+      functions:
+      - 'executep: /pos1 150,50,150'
+      - 'executep: /pos2 225,150,225'
+      - 'executep: /walls bedrock'
+      - 'executep: /confirm'
+      #
+      - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
