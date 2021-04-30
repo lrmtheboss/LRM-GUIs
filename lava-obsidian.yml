@@ -134,14 +134,14 @@ functions:
         - 'executec: give %player% OBSIDIAN %metadata_temp%'
         - 'executec: give %player% bucket %metadata_temp%'
         condition-fail:
-         type: 'fail'
-         fail-on: 'condition'
-         functions:
-         - 'setmetadata: gui,temp2,20'
-         - 'setmetadata: gui,temphalf2,10'
-         - 'takeitems: LAVA_BUCKET,%metadata_temp2%'
-         - 'executec: give %player% OBSIDIAN %metadata_temp2%'
-         - 'executec: give %player% bucket %metadata_temp2%'
+          type: 'fail'
+          fail-on: 'condition'
+          functions:
+          - 'setmetadata: gui,temp2,20'
+          - 'setmetadata: gui,temphalf2,10'
+          - 'takeitems: LAVA_BUCKET,%metadata_temp2%'
+          - 'executec: give %player% OBSIDIAN %metadata_temp2%'
+          - 'executec: give %player% bucket %metadata_temp2%'
 #
 #
 #
