@@ -1,0 +1,99 @@
+# Creation: Cat_Person 1-9-22
+title: "Survival Warps"
+rows: 3
+close: false
+alias:
+- survival-warps
+#
+#
+#
+"10":
+  icon: "GRASS_BLOCK"
+  name: "Survival"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to go to survival!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "exectuep: queue survival"
+"11":
+  icon: GRASS_BLOCK
+  name: "Shops"
+  lore:
+  - "&8&m----------&3&m--------------&8&m----------"
+  - "&7"
+  - "&c&lClick here to warp to the survival shops!"
+  - "&7"
+  - "&8&m----------&3&m--------------&8&m----------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp crates %player%"
+"12":
+  icon: "NETHERRACK"
+  name: "Nether"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to warp to the Nether!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp netherhub %player%"
+"13":
+  icon: "END_STONE"
+  name: "The End"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to warp to the End!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp endportal %player%"
+"14":
+  icon: "CHEST"
+  name: "Crates"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to warp to the Crates!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp crates %player%"
+"15":
+  icon: "DIAMOND_PICKAXE"
+  name: "Mining World"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to warp to the Mining World!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp miningworld %player%"

@@ -1,0 +1,39 @@
+# Creation: Cat_Person 1-9-22
+title: "Creative Warps"
+rows: 3
+close: false
+alias:
+- creative-warps
+#
+#
+#
+"12":
+  icon: "SAND"
+  name: "Plots"
+  lore:
+  - "&8&m----------&3&m--------------&8&m----------"
+  - "&7"
+  - "&c&lClick here to warp to the Creative Plots!"
+  - "&7"
+  - "&8&m----------&3&m--------------&8&m----------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp creative %player%"
+"14":
+  icon: "WOODEN_AXE"
+  name: "Free Roam"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to warp to Free Roam Creative!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp freeroam %player%"

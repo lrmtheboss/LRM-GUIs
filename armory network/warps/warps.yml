@@ -1,0 +1,72 @@
+# Creation: Cat_Person 1-9-22
+# Edit
+# Cat_Person 1-16-22
+title: "Warp Menu"
+rows: 3
+close: false
+alias:
+- warps
+- warps-gui
+#
+#
+#
+"4":
+  icon: NETHER_STAR
+  name: "Hub"
+  lore:
+  - "&8&m----------&3&m--------------&8&m----------"
+  - "&7"
+  - "&c&lClick here to warp to the hub!"
+  - "&7"
+  - "&8&m----------&3&m--------------&8&m----------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executep: queue hub"
+"11":
+  icon: "GRASS_BLOCK"
+  name: "Survival"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to open warps for Survival!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "gui: survival-warps"
+"13":
+  icon: "DIAMOND_SWORD"
+  name: "RPG"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to open warps for RPG!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executep: queue rpgsurvival"
+"15":
+  icon: "SAND"
+  name: "Creative"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to open warps for Creative!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "gui: creative-warps"
