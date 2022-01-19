@@ -1,0 +1,39 @@
+# Creation Cat_Person 1-16-22
+title: "Mod Warps"
+rows: 3
+close: false
+alias:
+- mod-warps
+#
+#
+#
+functions:
+  load:
+    type:
+    - load
+    functions:
+    - "permission: gui.staffwarp"
+    function-fail-perm:
+      type:
+      - "fail"
+      functions:
+      - "pmsg: &cYou do not have permission to use this GUI!"
+      - "close: true"
+#
+#
+#
+"10":
+  icon: "GLOWSTONE_DUST"
+  name: "Staffroom"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to go to the staff room!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp staffroom %player%"

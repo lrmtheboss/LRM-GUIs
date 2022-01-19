@@ -1,0 +1,55 @@
+# Creation Cat_Person 1-16-22
+title: "Staff Warps"
+rows: 3
+close: false
+alias:
+- staff-warps
+- staffwarps
+#
+#
+#
+functions:
+  load:
+    type:
+    - load
+    functions:
+    - "permission: gui.staffwarp"
+    function-fail-perm:
+      type:
+      - "fail"
+      functions:
+      - "pmsg: &cYou do not have permission to use this GUI!"
+      - "close: true"
+#
+#
+#
+"10":
+  icon: "WOODEN_AXE"
+  name: "Builder Warps"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to access the builder warps!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "gui: builder-warps"
+"11":
+  icon: "REDSTONE"
+  name: "Mod Warps"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to access the mod warps!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "gui: mod-warps"

@@ -1,0 +1,69 @@
+# Creation Cat_Person 1-16-22
+title: "Builder Warps"
+rows: 3
+close: false
+alias:
+- builder-warps
+#
+#
+#
+functions:
+  load:
+    type:
+    - load
+    functions:
+    - "permission: gui.staffwarp"
+    function-fail-perm:
+      type:
+      - "fail"
+      functions:
+      - "pmsg: &cYou do not have permission to use this GUI!"
+      - "close: true"
+#
+#
+#
+"10":
+  icon: "STICK"
+  name: "Build World"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to go to the Build World!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp buildworld %player%"
+"11":
+  icon: "NETHERRACK"
+  name: "Nether Hub Build"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to go to the nether hub build!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp netherhubbuild %player%"
+"12":
+  icon: "QUARTZ_BLOCK"
+  name: "New Hub Build"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to go to the new hub build!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executec: gwarp newhubbuild %player%"
