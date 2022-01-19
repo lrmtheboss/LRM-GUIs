@@ -1,0 +1,42 @@
+title: '&8&lKits'
+rows: 6
+close: false
+alias:
+- kits
+#
+#
+#
+'0':
+  icon: DARK_OAK_DOOR
+  name: '&c&lGo Back'
+  lore:
+  - '&8&m------&c&m---------&8&m-----'
+  - '&8'
+  - '&7Click here to go back'
+  - '&7to the previous page.'
+  - '&8'
+  - '&8&m------&c&m---------&8&m-----'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'gui: help-menu'
+#
+#
+#
+'10':
+  icon: IRON_PICKAXE
+  name: '&e&lStarter Kit'
+  lore:
+  - '&8&m------&c&m---------&8&m-----'
+  - '&8'
+  - '&7Click here to get the Starter kit'
+  - '&8'
+  - '&8&m------&c&m---------&8&m-----'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'executep: kit starter'

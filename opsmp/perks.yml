@@ -1,0 +1,492 @@
+title: '&8&lDonator Perks'
+rows: 3
+close: false
+alias:
+- perks
+- donorperks
+- donatorperks
+- donorrewards
+- donatorrewards
+npcs:
+  citizens:
+  - 0
+'0':
+  icon: DARK_OAK_DOOR
+  name: '&c&lClose'
+  lore:
+  - '&8&m------&c&m---------&8&m-----'
+  - '&7Click me to close this menu'
+  - '&7and look at the shop.'
+  - '&8&m------&c&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&c&m---------&8&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &cStore: store.bedrockmc.net'
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&c&m---------&8&m-----'
+    - 'pmsg: &8'
+  close: true
+'1':
+  icon: ROTTEN_FLESH
+  name: '&3&lZombie'
+  lore:
+  - '&8&m------&3&m---------&8&m-----'
+  - '&7Click me to get the link to this rank'
+  - '&7on the store.'
+  - '&8&m------&3&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&a&m---------&8&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &ahttps://store.bedrockmc.net/category/1244679'
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&a&m---------&8&m-----'
+  close: true
+'10':
+  icon: CHEST
+  name: '&3Zombie Kit'
+  lore:
+  - '&8&m------&3&m---------&8&m-----'
+  - '&7'
+  - '&3 ✶ &fZombie Sword'
+  - '&7    - Iron Sword'
+  - '&7'
+  - '&3 ✶ &fZombie Pickaxe, Axe, Shovel'
+  - '&7    - Iron Pickaxe'
+  - '&7    - Iron Axe'
+  - '&7    - Iron Shovel'
+  - '&7'
+  - '&3 ✶ &fZombie Armor Set'
+  - '&7    - Iron Armor'
+  - '&7'
+  - '&3 ✶ &f4 Exp Bottles'
+  - '&7'
+  - '&8&m------&3&m---------&8&m-----'
+'19':
+  icon: PAPER
+  name: '&3Zombie Perks'
+  lore:
+  - '&8&m------&3&m---------&8&m-----'
+  - '&7'
+  - '&3 ✶ &fZombie Disguise'
+  - '&3 ✶ &fZombie Pet'
+  - '&3 ✶ &f2 Player Vaults'
+  - '&7'
+  - '&8&m------&3&m---------&8&m-----'
+'2':
+  icon: COBWEB
+  name: '&4&lSpider'
+  lore:
+  - '&8&m------&4&m---------&8&m-----'
+  - '&7Click me to get the link to this rank'
+  - '&7on the store.'
+  - '&8&m------&4&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&4&m---------&8&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &4https://store.bedrockmc.net/category/1244679'
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&4&m---------&8&m-----'
+  close: true
+'11':
+  icon: CHEST
+  name: '&4Spider Kit'
+  lore:
+  - '&8&m------&4&m---------&8&m-----'
+  - '&7'
+  - '&4 ✶ &fSpider Sword'
+  - '&7    - Iron Sword'
+  - '&7    - Sharpness 1'
+  - '&7'
+  - '&4 ✶ &fSpider Pickaxe, Axe, Shovel'
+  - '&7    - Iron Pickaxe, Axe, and Shovel'
+  - '&7    - Efficiency 1'
+  - '&7'
+  - '&4 ✶ &fSpider Armor Set'
+  - '&7    - Iron Armor'
+  - '&7'
+  - '&4 ✶ &f8 Exp Bottles'
+  - '&7'
+  - '&8&m------&4&m---------&8&m-----'
+'20':
+  icon: PAPER
+  name: '&4Spider Perks'
+  lore:
+  - '&8&m------&4&m---------&8&m-----'
+  - '&7'
+  - '&4 ✶ &fSpider Disguise'
+  - '&4 ✶ &fSpider Pet'
+  - '&4 ✶ &f3 Player Vaults'
+  - '&4 ✶ &3Zombie Kit + Perks'
+  - '&7'
+  - '&8&m------&4&m---------&8&m-----'
+'3':
+  icon: BONE
+  name: '&f&lSkeleton'
+  lore:
+  - '&8&m------&f&m---------&8&m-----'
+  - '&7Click me to get the link to this rank'
+  - '&7on the store.'
+  - '&8&m------&f&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&f&m---------&8&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &fhttps://store.bedrockmc.net/category/1244679'
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&f&m---------&8&m-----'
+  close: true
+'12':
+  icon: CHEST
+  name: '&fSkeleton Kit'
+  lore:
+  - '&8&m------&f&m---------&8&m-----'
+  - '&7'
+  - '&f ✶ &fSkeleton Sword'
+  - '&7    - Iron Sword'
+  - '&7    - Sharpness 1'
+  - '&7'
+  - '&f ✶ &fSkeleton Pickaxe, Axe, Shovel'
+  - '&7    - Iron Pickaxe, Axe, and Shovel'
+  - '&7    - Efficiency 1'
+  - '&7'
+  - '&f ✶ &fSkeleton Armor Set'
+  - '&7    - Iron Armor'
+  - '&7    - Protection 1'
+  - '&7'
+  - '&f ✶ &f12 Exp Bottles'
+  - '&7'
+  - '&8&m------&f&m---------&8&m-----'
+'21':
+  icon: PAPER
+  name: '&fSkeleton Perks'
+  lore:
+  - '&8&m------&f&m---------&8&m-----'
+  - '&7'
+  - '&f ✶ &fSkeleton Disguise'
+  - '&f ✶ &fSkeleton Pet'
+  - '&f ✶ &e/echest'
+  - '&f ✶ &e/ewb'
+  - '&f ✶ &f4 Player Vaults'
+  - '&f ✶ &4Spider Kit + Perks'
+  - '&7'
+  - '&8&m------&f&m---------&8&m-----'
+'4':
+  icon: TNT
+  name: '&a&lCreeper'
+  lore:
+  - '&8&m------&a&m---------&8&m-----'
+  - '&7Click me to get the link to this rank'
+  - '&7on the store.'
+  - '&8&m------&a&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&a&m---------&8&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &ahttps://store.bedrockmc.net/category/1244679'
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&a&m---------&8&m-----'
+  close: true
+'13':
+  icon: CHEST
+  name: '&aCreeper Kit'
+  lore:
+  - '&8&m------&a&m---------&8&m-----'
+  - '&7'
+  - '&a ✶ &fCreeper Sword'
+  - '&7    - Diamond Sword'
+  - '&7'
+  - '&a ✶ &fCreeper Pickaxe, Axe, Shovel'
+  - '&7    - Diamond Pickaxe, Iron Axe and Iron Shovel'
+  - '&7    - Efficiency 1 on Axe and Shovel'
+  - '&7'
+  - '&a ✶ &fCreeper Armor Set'
+  - '&7    - Iron Armor'
+  - '&7    - Protection 1'
+  - '&7'
+  - '&a ✶ &f20 Exp Bottles'
+  - '&7'
+  - '&8&m------&a&m---------&8&m-----'
+'22':
+  icon: PAPER
+  name: '&aCreeper Perks'
+  lore:
+  - '&8&m------&a&m---------&8&m-----'
+  - '&7'
+  - '&a ✶ &fCreeper Disguise'
+  - '&a ✶ &fCreeper Pet'
+  - '&a ✶ &f5 Player Vaults'
+  - '&a ✶ &fSkeleton Kit + Perks'
+  - '&7'
+  - '&8&m------&a&m---------&8&m-----'
+'5':
+  icon: BLAZE_POWDER
+  name: '&6&lBlaze'
+  lore:
+  - '&8&m------&6&m---------&8&m-----'
+  - '&7Click me to get the link to this rank'
+  - '&7on the store.'
+  - '&8&m------&6&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&6&m---------&8&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &6https://store.bedrockmc.net/category/1244679'
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&6&m---------&8&m-----'
+  close: true
+'14':
+  icon: CHEST
+  name: '&6Blaze Kit'
+  lore:
+  - '&8&m------&6&m---------&8&m-----'
+  - '&7'
+  - '&6 ✶ &fBlaze Sword'
+  - '&7    - Diamond Sword'
+  - '&7    - Sharpness 1'
+  - '&7'
+  - '&6 ✶ &fBlaze Pickaxe, Axe, Shovel'
+  - '&7    - Diamond Pickaxe, Axe, and Shovel'
+  - '&7    - Efficiency 1 on Pickaxe'
+  - '&7'
+  - '&6 ✶ &fBlaze Armor Set'
+  - '&7    - Diamond Armor'
+  - '&7    - Protection 1'
+  - '&7'
+  - '&6 ✶ &f32 Exp Bottles'
+  - '&7'
+  - '&8&m------&6&m---------&8&m-----'
+'23':
+  icon: PAPER
+  name: '&6Blaze Perks'
+  lore:
+  - '&8&m------&6&m---------&8&m-----'
+  - '&7'
+  - '&6 ✶ &fBlaze Disguise'
+  - '&6 ✶ &fBlaze Pet'
+  - '&6 ✶ &f6 Player Vaults'
+  - '&6 ✶ &aCreeper Kit + Perks'
+  - '&7'
+  - '&8&m------&6&m---------&8&m-----'
+'6':
+  icon: ENDER_EYE
+  name: '&5&lEnderman'
+  lore:
+  - '&8&m------&5&m---------&8&m-----'
+  - '&7Click me to get the link to this rank'
+  - '&7on the store.'
+  - '&8&m------&5&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&5&m---------&8&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &5https://store.bedrockmc.net/category/1244679'
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&5&m---------&8&m-----'
+  close: true
+'15':
+  icon: CHEST
+  name: '&5Enderman Kit'
+  lore:
+  - '&8&m------&5&m---------&8&m-----'
+  - '&7'
+  - '&5 ✶ &fEnderman Sword'
+  - '&7    - Diamond Sword'
+  - '&7    - Sharpness 2'
+  - '&7'
+  - '&5 ✶ &fEnderman Pickaxe, Axe, Shovel'
+  - '&7    - Diamond Pickaxe, Axe, and Shovel'
+  - '&7    - Efficiency 2 On Pickaxe,'
+  - '&7    - Efficiency 1 On Axe and Shovel'
+  - '&7'
+  - '&5 ✶ &fEnderman Armor Set'
+  - '&7    - Diamond Armor'
+  - '&7    - Protection 2'
+  - '&7'
+  - '&5 ✶ &f48 Exp Bottles'
+  - '&7'
+  - '&8&m------&5&m---------&8&m-----'
+'24':
+  icon: PAPER
+  name: '&5Enderman Perks'
+  lore:
+  - '&8&m------&5&m---------&8&m-----'
+  - '&7'
+  - '&5 ✶ &fEnderman Disguise'
+  - '&5 ✶ &fEnderman Pet'
+  - '&5 ✶ &f7 Player Vaults'
+  - '&5 ✶ &fPermanent Night Vision'
+  - '&5 ✶ &6Blaze Kit + Perks'
+  - '&7'
+  - '&8&m------&5&m---------&8&m-----'
+'7':
+  icon: NETHER_STAR
+  name: '&8&lWither'
+  lore:
+  - '&7&m------&8&m---------&7&m-----'
+  - '&7Click me to get the link to this rank'
+  - '&7on the store.'
+  - '&7&m------&8&m---------&7&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &7&m------&8&m---------&7&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &8https://store.bedrockmc.net/category/1244679'
+    - 'pmsg: &8'
+    - 'pmsg: &7&m------&8&m---------&7&m-----'
+  close: true
+'16':
+  icon: CHEST
+  name: '&8Wither Kit'
+  lore:
+  - '&7&m------&8&m---------&7&m-----'
+  - '&7'
+  - '&8 ✶ &fWither Sword'
+  - '&7    - Diamond Sword'
+  - '&7    - Sharpness 2'
+  - '&7'
+  - '&8 ✶ &fWither Pickaxe, Axe, Shovel'
+  - '&7    - Diamond Sword, Axe, and Shovel'
+  - '&7    - Efficiency 2'
+  - '&7'
+  - '&8 ✶ &fWither Armor Set'
+  - '&7    - Diamond Armor'
+  - '&7    - Protection 1'
+  - '&7'
+  - '&8 ✶ &f64 Exp Bottles'
+  - '&7'
+  - '&7&m------&8&m---------&7&m-----'
+'25':
+  icon: PAPER
+  name: '&8Wither Perks'
+  lore:
+  - '&7&m------&8&m---------&7&m-----'
+  - '&7'
+  - '&8 ✶ &fWither Disguise'
+  - '&8 ✶ &fWither Pet'
+  - '&8 ✶ &f8 Player Vaults'
+  - '&8 ✶ &5Enderman Kit + Perks'
+  - '&7'
+  - '&7&m------&8&m---------&7&m-----'
+'17':
+  icon: CHEST
+  name: '&8Bed&7rock Kit'
+  lore:
+  - '&8&m------&7&m---------&8&m-----'
+  - '&7'
+  - '&7 ✶ &fBedrock Sword'
+  - '&7    - Diamond Sword'
+  - '&7    - Sharpness 2'
+  - '&7'
+  - '&7 ✶ &fBedrock Pickaxe, Axe, Shovel'
+  - '&7    - Diamond Pickaxe, Axe, and Shovel'
+  - '&7    - Efficiency 2'
+  - '&7'
+  - '&7 ✶ &fBedrock Armor Set'
+  - '&7    - Diamond Armor'
+  - '&7    - Protection 2'
+  - '&7'
+  - '&7 ✶ &f64 Exp Bottles'
+  - '&7'
+  - '&7&m------&8&m---------&7&m-----'
+'26':
+  icon: PAPER
+  name: '&8Bed&7rock Perks'
+  lore:
+  - '&7&m------&8&m---------&7&m-----'
+  - '&7'
+  - '&7 ✶ &fBedrock Disguise'
+  - '&7 ✶ &fBedrock Pet'
+  - '&7 ✶ &f9 Player Vaults'
+  - '&7 ✶ &8Wither Kit + Perks'
+  - '&7'
+  - '&7&m------&8&m---------&7&m-----'
+'8':
+  icon: BEDROCK
+  name: '&8&lBed&7&lrock'
+  lore:
+  - '&8&m------&7&m---------&8&m-----'
+  - '&7Click me to get the link to this rank'
+  - '&7on the store.'
+  - '&8&m------&7&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&7&m---------&8&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &7https://store.bedrockmc.net/category/1244679'
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&7&m---------&8&m-----'
+  close: true
+'9':
+  icon: BOOK
+  name: '&aStore'
+  lore:
+  - '&8&m------&a&m---------&8&m-----'
+  - '&7Donate to get these Perks!'
+  - '&7Click me to get the link to'
+  - '&7the store.'
+  - '&8&m------&a&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&a&m---------&8&m-----'
+    - 'pmsg: &8'
+    - 'pmsg: &ahttps://store.bedrockmc.net/'
+    - 'pmsg: &8'
+    - 'pmsg: &8&m------&a&m---------&8&m-----'
+  close: true
+'18':
+  icon: COMPASS
+  name: '&7&lHelp Menu'
+  lore:
+  - '&8&m------&7&m---------&8&m-----'
+  - '&7Click me to go to the help menu.'
+  - '&8&m------&7&m---------&8&m-----'
+  functions:
+   click:
+    type:
+    - click
+    functions:
+    - 'gui: help-menu'
+  close: true

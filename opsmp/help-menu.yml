@@ -1,0 +1,80 @@
+title: '&8&lHelp Menu'
+rows: 3
+close: false
+alias:
+- help
+#
+#
+#
+'4':
+  icon: NAME_TAG
+  name: '     &b&lBedrockMC &3│ &b&lNETWORK LINKS'
+  lore:
+  - '&8&m----------&3&m--------------&8&m----------'
+  - '&8'
+  - '&7Website &8- &ahttps://www.bedrockmc.net'
+  - '&7Discord &8- &ahttps://discord.bedrockmc.net'
+  - '&7Store &8- &ahttps://store.bedrockmc.net'
+  - '&7Teamspeak &8- &ats.bedrockmc.net'
+  - '&7'
+  - '&7Apply!  &8- &ehttps://www.bedrockmc.net/app'
+  - '&7'
+  - '&7Click Here to receive these helpful links.'
+  - '&8'
+  - '&8&m----------&3&m--------------&8&m----------'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'pmsg: &8'
+      - 'pmsg: &8&m----------&3&m--------------&8&m----------'
+      - 'pmsg: &8'
+      - 'pmsg: &7Website &8- &ahttps://www.bedrockmc.net'
+      - 'pmsg: &7Discord &8- &ahttps://discord.bedrockmc.net'
+      - 'pmsg: &7Store &8- &ahttps://store.bedrockmc.net'
+      - 'pmsg: &7Teamspeak &8- &ats.bedrockmc.net'
+      - 'pmsg: &7'
+      - 'pmsg: &7Apply!  &8- &ehttps://www.bedrockmc.net/app'
+      - 'pmsg: &7'
+      - 'pmsg: &8&m----------&3&m--------------&8&m----------'
+      - 'pmsg: &8'
+#
+#
+#
+'11':
+  icon: COMPASS
+  name: '&b&lServer Warps'
+  lore:
+  - '&8&m--------&3&m--------------&8&m--------'
+  - '&7'
+  - '&c&lSPAWN &aTeleport back to Spawn!'
+  - '&7'
+  - '&8&m--------&3&m--------------&8&m--------'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'gui: warps'
+#
+#
+#
+'22':
+  icon: CHEST
+  name: '&b&lServer Perks'
+  lore:
+  - '&8&m--------&3&m---------------&8&m--------'
+  - '&7'
+  - '&6&lRANKS &aView available donor ranks!'
+  - '&8Compare rank perks here.'
+  - '&8'
+  - '&3&lPERKS &aOther perks available &7(SOON)'
+  - '&7'
+  - '&8&m--------&3&m---------------&8&m--------'
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - 'gui: perks'
