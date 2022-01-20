@@ -1,0 +1,39 @@
+title: ""
+rows: 6
+mode: set
+close: false
+alias:
+- base
+#
+#
+#
+functions:
+  load:
+    type:
+    - load
+    functions:
+    - "permission: some.perm.node"
+    function-fail-perm:
+      type:
+      - "fail"
+      functions:
+      - "pmsg: &cYou do not have permission to use this GUI!"
+      - "close: true"
+#
+#
+#
+"0":
+  icon: ""
+  name: ""
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&l text here"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - ""
