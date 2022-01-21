@@ -11,7 +11,7 @@ close: false
 #
 #
 functions:
-  load-permission: 
+  load-permission:
     type: "load"
     functions:
     - 'permission: lrm.gui.lava-obsidian'
@@ -33,8 +33,8 @@ functions:
   - '&8'
   - '&8&m------&3&m---------&8&m------'
   close: true
-  functions:  
-    click:  
+  functions:
+    click:
       type:
       - click
       functions:
