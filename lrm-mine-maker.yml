@@ -40,7 +40,7 @@ functions:
 #
 #
 #
-'10': 
+'10':
   name: "Set Base"
   icon: 'stone'
   lore:
@@ -52,7 +52,7 @@ functions:
   - '&8'
   - '&8&m------&3&m---------&8&m------'
   functions:
-    click:  
+    click:
       type:
       - click
       functions:
@@ -62,7 +62,7 @@ functions:
       - 'executep: /confirm'
       - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
 #
-'11': 
+'11':
   name: "Set Bottom Base"
   icon: 'stone'
   lore:
@@ -74,7 +74,7 @@ functions:
   - '&8'
   - '&8&m------&3&m---------&8&m------'
   functions:
-    click:  
+    click:
       type:
       - click
       functions:
@@ -84,7 +84,7 @@ functions:
       - 'executep: /confirm'
       - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
 #
-'12': 
+'12':
   name: "Set Lines"
   icon: 'stone'
   lore:
@@ -96,7 +96,7 @@ functions:
   - '&8'
   - '&8&m------&3&m---------&8&m------'
   functions:
-    click:  
+    click:
       type:
       - click
       functions:
@@ -216,7 +216,7 @@ functions:
       #
       - 'sound: ENTITY_PAINTING_PLACE,1,1.8'
 #
-'13': 
+'13':
   name: "Set Mine Walls"
   icon: 'stone'
   lore:
@@ -228,7 +228,7 @@ functions:
   - '&8'
   - '&8&m------&3&m---------&8&m------'
   functions:
-    click:  
+    click:
       type:
       - click
       functions:

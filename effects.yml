@@ -9,14 +9,14 @@ close: false
 #
 #
 functions:
-  load-permission: 
+  load-permission:
     type: "load"
     functions:
     - 'permission: lrm.gui.effects'
     permission-fail:
       type: 'fail'
       fail-on: 'permission'
-      functions: 
+      functions:
       - 'pmsg: You don''t have permission to do that'
 #
 #
@@ -31,8 +31,8 @@ functions:
   - '&8'
   - '&8&m------&3&m---------&8&m------'
   close: true
-  functions:  
-    click:  
+  functions:
+    click:
       type:
       - click
       functions:
@@ -41,7 +41,7 @@ functions:
 #
 #
 #
-'5': 
+'5':
   name: "Some name"
   icon: 'stone'
   lore:
@@ -53,10 +53,10 @@ functions:
   functions:
     load:
       type: "load"
-      functions: 
+      functions:
       - "permission: lrm.gui.effects.invis"
       - "settype: cobblestone"
-    click:  
+    click:
       type:
       - click
       functions:
