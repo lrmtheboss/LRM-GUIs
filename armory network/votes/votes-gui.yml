@@ -20,7 +20,7 @@ alias:
 #
 #
 #
-'4':
+'3':
   icon: "PAPER"
   name: "Vote for the server"
   lore:
@@ -35,6 +35,28 @@ alias:
       - click
       functions:
       - "pmsg: Click on the icon of the link you want not this one"
+'5':
+  icon: "GOLD_INGOT"
+  name: "All Vote Links"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to have all vote links sent to your chat"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "pmsg: https://minecraft-mp.com/server/237753/vote/"
+      - "pmsg: https://bestservers.com/server/858/vote"
+      - "pmsg: https://mc-servers.com/mcvote/4558/vote"
+      - "pmsg: https://serverlist101.com/server/2086/vote/"
+      - "pmsg: https://www.serverpact.com/vote-43546"
+      - "pmsg: https://minestatus.net/server/vote/playmc.thearmoury.net"
+      - "pmsg: https://minecraft-server-list.com/server/448486/vote/"
+      - "pmsg: https://topg.org/Minecraft/in-601725"
 "10":
   icon: "GOLD_BLOCK"
   name: "Minecraft MP"
