@@ -142,7 +142,3 @@ functions:
           - 'takeitems: LAVA_BUCKET,%metadata_temp2%'
           - 'executec: give %player% OBSIDIAN %metadata_temp2%'
           - 'executec: give %player% bucket %metadata_temp2%'
-#
-#
-#
-# add replacement for near water, bubble column and glow lichen to air
