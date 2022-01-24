@@ -19,3 +19,7 @@ Allows a player to replace lava to obsidian, water, bubble column, and glow lich
 Currently Not Working Waiting on `wait` function to be added
 
 For making a mines of 101x101 with 50 around and 25 between
+
+### [Obby-Lava](./obby-lava.yml)
+
+Allows a player to exchange buckets of lava for obsidian
