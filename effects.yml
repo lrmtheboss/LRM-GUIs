@@ -68,7 +68,7 @@ functions:
   name: '&6Invis Access'
   icon: WHITE_STAINED_GLASS
   lore:
-  - '&c Click here to buy perm access to invis for 1Mil'
+  - '&c Click here to buy permanent access to invis for 1Mil'
   functions:
     load:
       type: 'load'
@@ -88,7 +88,7 @@ functions:
       - 'moneybalance: 1000000'
       - 'moneywithdraw: 1000000'
       - 'addpermission: lrm.gui.effects.invis'
-      - 'pmsg: &aYou have bought perm access to invis'
+      - 'pmsg: &aYou have bought permanent access to invis'
       nopermission-fail:
         type: 'fail'
         fail-on: 'nopermission'
@@ -140,7 +140,7 @@ functions:
   name: '&6Haste Access'
   icon: YELLOW_STAINED_GLASS
   lore:
-  - '&c Click here to buy perm access to haste for 1Mil'
+  - '&c Click here to buy permanent access to haste for 1Mil'
   functions:
     load:
       type: 'load'
@@ -160,7 +160,7 @@ functions:
       - 'moneybalance: 1000000'
       - 'moneywithdraw: 1000000'
       - 'addpermission: lrm.gui.effects.haste'
-      - 'pmsg: &aYou have bought perm access to haste'
+      - 'pmsg: &aYou have bought permanent access to haste'
       nopermission-fail:
         type: 'fail'
         fail-on: 'nopermission'
@@ -212,7 +212,7 @@ functions:
   name: '&6Haste Access'
   icon: ORANGE_STAINED_GLASS
   lore:
-  - '&c Click here to buy perm access to fire res for 1Mil'
+  - '&c Click here to buy permanent access to fire res for 1Mil'
   functions:
     load:
       type: 'load'
@@ -232,7 +232,7 @@ functions:
       - 'moneybalance: 1000000'
       - 'moneywithdraw: 1000000'
       - 'addpermission: lrm.gui.effects.fire_resistance'
-      - 'pmsg: &aYou have bought perm access to fire res'
+      - 'pmsg: &aYou have bought permanent access to fire res'
       nopermission-fail:
         type: 'fail'
         fail-on: 'nopermission'
@@ -284,7 +284,7 @@ functions:
   name: '&6Night Vision Access'
   icon: LIGHT_BLUE_STAINED_GLASS
   lore:
-  - '&c Click here to buy perm access to night vision for 1Mil'
+  - '&c Click here to buy permanent access to night vision for 1Mil'
   functions:
     load:
       type: 'load'
@@ -304,7 +304,7 @@ functions:
       - 'moneybalance: 1000000'
       - 'moneywithdraw: 1000000'
       - 'addpermission: lrm.gui.effects.night_vision'
-      - 'pmsg: &aYou have bought perm access to night vision'
+      - 'pmsg: &aYou have bought permanent access to night vision'
       nopermission-fail:
         type: 'fail'
         fail-on: 'nopermission'
