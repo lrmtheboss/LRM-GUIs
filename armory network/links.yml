@@ -1,0 +1,140 @@
+# Creation date: 1-25-2022
+# Created by: LRMtheBoss
+title: "Links"
+rows: 3
+mode: set
+close: false
+alias:
+- links
+#
+#
+# Website: https://www.thearmoury.net/
+# Reddit: https://www.reddit.com/user/The_ArmouryCommunity
+# YouTube: https://www.youtube.com/channel/UC7VkmkYSCjDcNk52L8gdqXg
+# Twitter: https://twitter.com/TheArmouryComty
+# Twitch: https://www.twitch.tv/thearmourycommunity
+# Instagram: https://www.instagram.com/armoury_community/
+# Facebook: https://www.facebook.com/TheArmouryCommunity/
+# Discord: https://discord.gg/jhFtBpc
+#
+#
+"4":
+  icon: "MAGENTA_TERRACOTTA"
+  name: "Discord"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to get the discord invite link."
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "pmsg: Discord invite link: https://discord.gg/jhFtBpc"
+'10':
+  icon: "BLACK_TERRACOTTA"
+  name: "Website"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to get the website link."
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "pmsg: Website link: https://www.thearmoury.net/"
+'11':
+  icon: "RED_TERRACOTTA"
+  name: "YouTube"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to get the youtube channel link."
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "pmsg: YouTube channel link: https://www.youtube.com/channel/UC7VkmkYSCjDcNk52L8gdqXg"
+'12':
+  icon: "BLUE_TERRACOTTA"
+  name: "Twitter"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to get the twitter link."
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "pmsg: Twitter link: https://twitter.com/TheArmouryComty"
+'13':
+  icon: "ORANGE_TERRACOTTA"
+  name: "Reddit"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to get the reddit link."
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "pmsg: Reddit link: https://www.reddit.com/user/The_ArmouryCommunity"
+'14':
+  icon: "PINK_TERRACOTTA"
+  name: "Instagram"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to get the instagram link."
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "pmsg: Instagram link: https://www.instagram.com/armoury_community/"
+'15':
+  icon: "MAGENTA_TERRACOTTA"
+  name: "Twitch"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to get the twitch link."
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "pmsg: Twitch link: https://www.twitch.tv/thearmourycommunity"
+'16':
+  icon: "BLUE_TERRACOTTA"
+  name: "Facebook"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to get the facebook link."
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "pmsg: Facebook link: https://www.facebook.com/TheArmouryCommunity/"
