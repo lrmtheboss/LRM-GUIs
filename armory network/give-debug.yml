@@ -1,0 +1,23 @@
+title: ""
+rows: 6
+mode: set
+close: true
+alias:
+- debug-stick
+#
+#
+#
+functions:
+  load:
+    type:
+    - load
+    functions:
+    - "permission: debug.stick"
+    - "executec: give %player% DEBUG_STICK 1"
+    - "close: true"
+    function-fail-perm:
+      type:
+      - "fail"
+      functions:
+      - "pmsg: &cYou do not have permission to preform this command!"
+      - "close: true"
