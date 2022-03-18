@@ -1,12 +1,11 @@
-# Creation date: 1-20-2022
-# Created by: LRMtheBoss
+# Creation Cat_Person 1-20-22
 #
 # https://minecraft-mp.com/server/237753/vote/
 # https://bestservers.com/server/858/vote
 # https://mc-servers.com/mcvote/4558/
 # https://serverlist101.com/server/2086/vote/
 # https://www.serverpact.com/vote-43546
-# https://minestatus.net/server/vote/playmc.thearmoury.net
+# https://minestatus.net/server/edit/mc.symbiplex.net
 # https://minecraft-server-list.com/server/448486/vote/
 # https://topg.org/Minecraft/in-601725
 #
@@ -55,18 +54,18 @@ alias:
       - "pmsg: https://mc-servers.com/mcvote/4558/vote"
       - "pmsg: https://serverlist101.com/server/2086/vote/"
       - "pmsg: https://www.serverpact.com/vote-43546"
-      - "pmsg: https://minestatus.net/server/vote/playmc.thearmoury.net"
+      - "pmsg: https://minestatus.net/server/edit/mc.symbiplex.net"
       - "pmsg: https://minecraft-server-list.com/server/448486/vote/"
       - "pmsg: https://topg.org/Minecraft/in-601725"
 "10":
   icon: "GOLD_BLOCK"
   name: "Minecraft MP"
-  lore:
-  - "&8&m--------&3&m--------------&8&m--------"
-  - "&7"
-  - "&c&l https://minecraft-mp.com/server/237753/vote/"
-  - "&7"
-  - "&8&m--------&3&m--------------&8&m--------"
+  # lore:
+  # - "&8&m--------&3&m--------------&8&m--------"
+  # - "&7"
+  # - "&c&l https://minecraft-mp.com/server/237753/vote/"
+  # - "&7"
+  # - "&8&m--------&3&m--------------&8&m--------"
   functions:
     click:
       type:
@@ -77,12 +76,12 @@ alias:
 "11":
   icon: "DIAMOND_BLOCK"
   name: "Best Servers"
-  lore:
-  - "&8&m--------&3&m--------------&8&m--------"
-  - "&7"
-  - "&c&l https://bestservers.com/server/858/vote"
-  - "&7"
-  - "&8&m--------&3&m--------------&8&m--------"
+  # lore:
+  # - "&8&m--------&3&m--------------&8&m--------"
+  # - "&7"
+  # - "&c&l https://bestservers.com/server/858/vote"
+  # - "&7"
+  # - "&8&m--------&3&m--------------&8&m--------"
   functions:
     click:
       type:
@@ -93,12 +92,12 @@ alias:
 "12":
   icon: "EMERALD_BLOCK"
   name: "MC Servers"
-  lore:
-  - "&8&m--------&3&m--------------&8&m--------"
-  - "&7"
-  - "&c&l https://mc-servers.com/mcvote/4558/"
-  - "&7"
-  - "&8&m--------&3&m--------------&8&m--------"
+  # lore:
+  # - "&8&m--------&3&m--------------&8&m--------"
+  # - "&7"
+  # - "&c&l https://mc-servers.com/mcvote/4558/"
+  # - "&7"
+  # - "&8&m--------&3&m--------------&8&m--------"
   functions:
     click:
       type:
@@ -109,12 +108,12 @@ alias:
 "13":
   icon: "REDSTONE_BLOCK"
   name: "ServerList101"
-  lore:
-  - "&8&m--------&3&m--------------&8&m--------"
-  - "&7"
-  - "&c&l https://serverlist101.com/server/2086/vote"
-  - "&7"
-  - "&8&m--------&3&m--------------&8&m--------"
+  # lore:
+  # - "&8&m--------&3&m--------------&8&m--------"
+  # - "&7"
+  # - "&c&l https://serverlist101.com/server/2086/vote"
+  # - "&7"
+  # - "&8&m--------&3&m--------------&8&m--------"
   functions:
     click:
       type:
@@ -125,12 +124,12 @@ alias:
 "14":
   icon: "LAPIS_BLOCK"
   name: "ServerPact"
-  lore:
-  - "&8&m--------&3&m--------------&8&m--------"
-  - "&7"
-  - "&c&l https://www.serverpact.com/vote-43546"
-  - "&7"
-  - "&8&m--------&3&m--------------&8&m--------"
+  # lore:
+  # - "&8&m--------&3&m--------------&8&m--------"
+  # - "&7"
+  # - "&c&l https://www.serverpact.com/vote-43546"
+  # - "&7"
+  # - "&8&m--------&3&m--------------&8&m--------"
   functions:
     click:
       type:
@@ -141,28 +140,28 @@ alias:
 "15":
   icon: "QUARTZ_BLOCK"
   name: "Minestatus"
-  lore:
-  - "&8&m--------&3&m--------------&8&m--------"
-  - "&7"
-  - "&c&l https://minestatus.net/server/vote/playmc.thearmoury.net"
-  - "&7"
-  - "&8&m--------&3&m--------------&8&m--------"
+  # lore:
+  # - "&8&m--------&3&m--------------&8&m--------"
+  # - "&7"
+  # - "&c&l https://minestatus.net/server/edit/mc.symbiplex.net"
+  # - "&7"
+  # - "&8&m--------&3&m--------------&8&m--------"
   functions:
     click:
       type:
       - click
       functions:
-      - "pmsg: https://minestatus.net/server/vote/playmc.thearmoury.net"
+      - "pmsg: https://minestatus.net/server/edit/mc.symbiplex.net"
       - "close: true"
 "16":
   icon: "IRON_BLOCK"
   name: "Minecraft Server List"
-  lore:
-  - "&8&m--------&3&m--------------&8&m--------"
-  - "&7"
-  - "&c&l https://minecraft-server-list.com/server/448486/vote"
-  - "&7"
-  - "&8&m--------&3&m--------------&8&m--------"
+  # lore:
+  # - "&8&m--------&3&m--------------&8&m--------"
+  # - "&7"
+  # - "&c&l https://minecraft-server-list.com/server/448486/vote"
+  # - "&7"
+  # - "&8&m--------&3&m--------------&8&m--------"
   functions:
     click:
       type:
@@ -173,12 +172,12 @@ alias:
 "19":
   icon: "COPPER_BLOCK"
   name: "TopG"
-  lore:
-  - "&8&m--------&3&m--------------&8&m--------"
-  - "&7"
-  - "&c&l https://topg.org/Minecraft/in-601725"
-  - "&7"
-  - "&8&m--------&3&m--------------&8&m--------"
+  # lore:
+  # - "&8&m--------&3&m--------------&8&m--------"
+  # - "&7"
+  # - "&c&l https://topg.org/Minecraft/in-601725"
+  # - "&7"
+  # - "&8&m--------&3&m--------------&8&m--------"
   functions:
     click:
       type:
