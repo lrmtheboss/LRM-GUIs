@@ -1,5 +1,7 @@
 # Creation Cat_Person 1-20-22
 #
+# OLD Links
+#
 # https://minecraft-mp.com/server/237753/vote/
 # https://bestservers.com/server/858/vote
 # https://mc-servers.com/mcvote/4558/
@@ -8,6 +10,25 @@
 # https://minestatus.net/server/edit/mc.symbiplex.net
 # https://minecraft-server-list.com/server/448486/vote/
 # https://topg.org/Minecraft/in-601725
+#
+#
+# New Links
+# Minecraft MP:
+# https://minecraft-mp.com/server/301965/vote/
+# Best Servers:
+# https://bestservers.com/server/1854/vote
+# McServers.com:
+# https://mc-servers.com/mcvote/5121/
+# Serverlist101:
+# https://serverlist101.com/server/2795/vote/
+# Serverpact:
+# https://www.serverpact.com/vote-46944
+# MineStatus:
+# https://minestatus.net/server/vote/mc.symbiplex.net:25580
+# Minecraft server list:
+# https://minecraft-server-list.com/server/486554/vote/
+# TopGG:
+# https://topg.org/minecraft-servers/server-641644
 #
 title: "Voting"
 rows: 4
@@ -49,21 +70,21 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: https://minecraft-mp.com/server/237753/vote/"
-      - "pmsg: https://bestservers.com/server/858/vote"
-      - "pmsg: https://mc-servers.com/mcvote/4558/vote"
-      - "pmsg: https://serverlist101.com/server/2086/vote/"
-      - "pmsg: https://www.serverpact.com/vote-43546"
+      - "pmsg: https://minecraft-mp.com/server/301965/vote/"
+      - "pmsg: https://bestservers.com/server/1854/vote"
+      - "pmsg: https://mc-servers.com/mcvote/5121/vote"
+      - "pmsg: https://serverlist101.com/server/2795/vote/"
+      - "pmsg: https://www.serverpact.com/vote-46944"
       - "pmsg: https://minestatus.net/server/edit/mc.symbiplex.net"
-      - "pmsg: https://minecraft-server-list.com/server/448486/vote/"
-      - "pmsg: https://topg.org/Minecraft/in-601725"
+      - "pmsg: https://minecraft-server-list.com/server/486554/vote/"
+      - "pmsg: https://topg.org/minecraft-servers/server-641644"
 "10":
   icon: "GOLD_BLOCK"
   name: "Minecraft MP"
   # lore:
   # - "&8&m--------&3&m--------------&8&m--------"
   # - "&7"
-  # - "&c&l https://minecraft-mp.com/server/237753/vote/"
+  # - "&c&l https://minecraft-mp.com/server/301965/vote/"
   # - "&7"
   # - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -71,7 +92,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: https://minecraft-mp.com/server/237753/vote/"
+      - "pmsg: https://minecraft-mp.com/server/301965/vote/"
       - "close: true"
 "11":
   icon: "DIAMOND_BLOCK"
@@ -79,7 +100,7 @@ alias:
   # lore:
   # - "&8&m--------&3&m--------------&8&m--------"
   # - "&7"
-  # - "&c&l https://bestservers.com/server/858/vote"
+  # - "&c&l https://bestservers.com/server/1854/vote"
   # - "&7"
   # - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -87,7 +108,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: https://bestservers.com/server/858/vote"
+      - "pmsg: https://bestservers.com/server/1854/vote"
       - "close: true"
 "12":
   icon: "EMERALD_BLOCK"
@@ -95,7 +116,7 @@ alias:
   # lore:
   # - "&8&m--------&3&m--------------&8&m--------"
   # - "&7"
-  # - "&c&l https://mc-servers.com/mcvote/4558/"
+  # - "&c&l https://mc-servers.com/mcvote/5121/"
   # - "&7"
   # - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -103,7 +124,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: https://mc-servers.com/mcvote/4558/"
+      - "pmsg: https://mc-servers.com/mcvote/5121/"
       - "close: true"
 "13":
   icon: "REDSTONE_BLOCK"
@@ -111,7 +132,7 @@ alias:
   # lore:
   # - "&8&m--------&3&m--------------&8&m--------"
   # - "&7"
-  # - "&c&l https://serverlist101.com/server/2086/vote"
+  # - "&c&l https://serverlist101.com/server/2795/vote"
   # - "&7"
   # - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -119,7 +140,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: https://serverlist101.com/server/2086/vote"
+      - "pmsg: https://serverlist101.com/server/2795/vote"
       - "close: true"
 "14":
   icon: "LAPIS_BLOCK"
@@ -127,7 +148,7 @@ alias:
   # lore:
   # - "&8&m--------&3&m--------------&8&m--------"
   # - "&7"
-  # - "&c&l https://www.serverpact.com/vote-43546"
+  # - "&c&l https://www.serverpact.com/vote-46944"
   # - "&7"
   # - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -135,7 +156,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: https://www.serverpact.com/vote-43546"
+      - "pmsg: https://www.serverpact.com/vote-46944"
       - "close: true"
 "15":
   icon: "QUARTZ_BLOCK"
@@ -159,7 +180,7 @@ alias:
   # lore:
   # - "&8&m--------&3&m--------------&8&m--------"
   # - "&7"
-  # - "&c&l https://minecraft-server-list.com/server/448486/vote"
+  # - "&c&l https://minecraft-server-list.com/server/486554/vote"
   # - "&7"
   # - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -167,7 +188,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: https://minecraft-server-list.com/server/448486/vote"
+      - "pmsg: https://minecraft-server-list.com/server/486554/vote"
       - "close: true"
 "19":
   icon: "COPPER_BLOCK"
@@ -175,7 +196,7 @@ alias:
   # lore:
   # - "&8&m--------&3&m--------------&8&m--------"
   # - "&7"
-  # - "&c&l https://topg.org/Minecraft/in-601725"
+  # - "&c&l https://topg.org/minecraft-servers/server-641644"
   # - "&7"
   # - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -183,5 +204,5 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: https://topg.org/Minecraft/in-601725"
+      - "pmsg: https://topg.org/minecraft-servers/server-641644"
       - "close: true"
