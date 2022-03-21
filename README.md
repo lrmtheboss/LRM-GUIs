@@ -2,11 +2,16 @@
 
 LRM's GUIs for DynamicGUI
 
+## Warnings *READ THIS*
+
+- No warranty or guarantees of any kind are given with these guis.
+- All guis are provided as it.
+- All guis are considered Work in Progress and are subject to change. They may also contain bugs.
+
 ## Notes
 
 The guis that are in a folder were made for a specific server so won't work out of the box on any other server.
-These guis come with NO warranty or guaranties of any kind.
-Limited support will be provided for for issues and bugs when I'm available
+Limited support will only be provided for issues on non server-specific guis when I am available.
 
 ## No addons required
 
