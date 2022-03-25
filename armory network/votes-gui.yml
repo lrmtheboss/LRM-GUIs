@@ -75,7 +75,7 @@ alias:
       - "pmsg: https://mc-servers.com/mcvote/5121"
       - "pmsg: https://serverlist101.com/server/2795/vote/"
       - "pmsg: https://www.serverpact.com/vote-46944"
-      - "pmsg: https://minestatus.net/server/edit/mc.symbiplex.net:25580"
+      - "pmsg: https://minestatus.net/server/vote/mc.symbiplex.net:25580"
       - "pmsg: https://minecraft-server-list.com/server/486554/vote/"
       - "pmsg: https://topg.org/minecraft-servers/server-641644"
 "10":
@@ -164,7 +164,7 @@ alias:
   # lore:
   # - "&8&m--------&3&m--------------&8&m--------"
   # - "&7"
-  # - "&c&l https://minestatus.net/server/edit/mc.symbiplex.net:25580"
+  # - "&c&l https://minestatus.net/server/vote/mc.symbiplex.net:25580"
   # - "&7"
   # - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -172,7 +172,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: https://minestatus.net/server/edit/mc.symbiplex.net:25580"
+      - "pmsg: https://minestatus.net/server/vote/mc.symbiplex.net:25580"
       - "close: true"
 "16":
   icon: "IRON_BLOCK"
