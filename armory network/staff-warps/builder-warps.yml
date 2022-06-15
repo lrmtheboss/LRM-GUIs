@@ -1,5 +1,7 @@
 # Creation date: 1-16-2022
 # Created by: LRMtheBoss
+# Edits
+# 6-15-2022 = switch new hub warp to be 1.19 survival spawn build - LRMtheBoss
 title: "Builder Warps"
 rows: 3
 close: false
@@ -55,11 +57,12 @@ functions:
       - "executec: gwarp netherhubbuild %player%"
 "12":
   icon: "QUARTZ_BLOCK"
-  name: "New Hub Build"
+  name: "1.19 Survival Spawn Build"
   lore:
   - "&8&m--------&3&m--------------&8&m--------"
   - "&7"
-  - "&c&lClick here to go to the new hub build!"
+  - "&c&lClick here to go to the"
+  - "&c 1.19 Survival Spawn Build!"
   - "&7"
   - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -67,4 +70,4 @@ functions:
       type:
       - click
       functions:
-      - "executec: gwarp newhubbuild %player%"
+      - "executec: gwarp survivalspawnbuild %player%"
