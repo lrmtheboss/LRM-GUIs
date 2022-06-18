@@ -1,0 +1,60 @@
+title: "Warps"
+rows: 3
+mode: set
+close: false
+alias:
+- hubwarps
+#
+#
+#
+npcs:
+  citizens:
+  - 14
+#
+#
+#
+"10":
+  icon: "CHEST"
+  name: "Crates"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to go to the crates!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executep: warp hubcrates"
+"13":
+  icon: "OAK_SIGN"
+  name: "Leadership"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to go to the leadership area!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "executep: warp leadership"
+"16":
+  icon: "ENDER_EYE"
+  name: "Warps"
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&lClick here to access the warps!"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - "gui: warps"
