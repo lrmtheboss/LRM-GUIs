@@ -56,7 +56,7 @@ alias:
       type:
       - click
       functions:
-      - "executep: queue rpgsurvival"
+      - "executep: queue rpg"
 "15":
   icon: "SAND"
   name: "Creative"
