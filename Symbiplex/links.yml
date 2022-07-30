@@ -9,12 +9,12 @@ alias:
 #
 #
 # Website: https://www.thearmoury.net/
-# Reddit: https://www.reddit.com/user/The_ArmouryCommunity
-# YouTube: https://www.youtube.com/channel/UC7VkmkYSCjDcNk52L8gdqXg
-# Twitter: https://twitter.com/TheArmouryComty
-# Twitch: https://www.twitch.tv/thearmourycommunity
-# Instagram: https://www.instagram.com/armoury_community/
-# Facebook: https://www.facebook.com/TheArmouryCommunity/
+# Reddit:
+# YouTube:
+# Twitter:
+# Twitch:
+# Instagram:
+# Facebook:
 # Discord: https://discord.gg/jhFtBpc
 #
 #
@@ -47,7 +47,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: Website link: https://www.thearmoury.net/"
+      - "pmsg: Website link: https://www.symbiplex.net/"
 '11':
   icon: "RED_TERRACOTTA"
   name: "YouTube"
@@ -62,7 +62,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: YouTube channel link: https://www.youtube.com/channel/UC7VkmkYSCjDcNk52L8gdqXg"
+      - "pmsg: YouTube channel link: (Coming Soon)"
 '12':
   icon: "BLUE_TERRACOTTA"
   name: "Twitter"
@@ -77,7 +77,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: Twitter link: https://twitter.com/TheArmouryComty"
+      - "pmsg: Twitter link: (Coming Soon)"
 '13':
   icon: "ORANGE_TERRACOTTA"
   name: "Reddit"
@@ -92,7 +92,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: Reddit link: https://www.reddit.com/user/The_ArmouryCommunity"
+      - "pmsg: Reddit link: (Coming Soon)"
 '14':
   icon: "PINK_TERRACOTTA"
   name: "Instagram"
@@ -107,7 +107,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: Instagram link: https://www.instagram.com/armoury_community/"
+      - "pmsg: Instagram link: (Coming Soon)"
 '15':
   icon: "MAGENTA_TERRACOTTA"
   name: "Twitch"
@@ -122,7 +122,7 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: Twitch link: https://www.twitch.tv/thearmourycommunity"
+      - "pmsg: Twitch link: (Coming Soon)"
 '16':
   icon: "BLUE_TERRACOTTA"
   name: "Facebook"
@@ -137,4 +137,4 @@ alias:
       type:
       - click
       functions:
-      - "pmsg: Facebook link: https://www.facebook.com/TheArmouryCommunity/"
+      - "pmsg: Facebook link: (Coming Soon)"
