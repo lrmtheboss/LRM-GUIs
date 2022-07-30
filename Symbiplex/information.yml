@@ -1,0 +1,24 @@
+title: "Information"
+rows: 6
+mode: set
+close: false
+alias:
+- info
+#
+#
+#
+"0":
+  icon: ""
+  name: ""
+  lore:
+  - "&8&m--------&3&m--------------&8&m--------"
+  - "&7"
+  - "&c&l text here"
+  - "&7"
+  - "&8&m--------&3&m--------------&8&m--------"
+  functions:
+    click:
+      type:
+      - click
+      functions:
+      - ""
