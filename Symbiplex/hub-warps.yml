@@ -30,11 +30,11 @@ npcs:
       - "executep: warp hubcrates"
 "13":
   icon: "OAK_SIGN"
-  name: "Leadership"
+  name: "Leaderboards"
   lore:
   - "&8&m--------&3&m--------------&8&m--------"
   - "&7"
-  - "&c&lClick here to go to the leadership area!"
+  - "&c&lClick here to go to the leaderboards area!"
   - "&7"
   - "&8&m--------&3&m--------------&8&m--------"
   functions:
@@ -42,7 +42,7 @@ npcs:
       type:
       - click
       functions:
-      - "executep: warp leadership"
+      - "executep: warp leaderboards"
 "16":
   icon: "ENDER_EYE"
   name: "Warps"
