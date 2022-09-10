@@ -1,0 +1,18 @@
+title: ""
+rows: 6
+mode: set
+close: false
+alias:
+npcs:
+  citizens:
+  - 1
+#
+#
+#
+functions:
+  load:
+    type:
+    - load
+    functions:
+    - "executec: gwarp hub %player%"
+    - "pmsg: &bTeleporting you to the Hub!"
